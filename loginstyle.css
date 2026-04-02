@@ -1,0 +1,82 @@
+/* Importing a rugged font for that explorer feel */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Special+Elite&display=swap');
+
+body {
+    background-color: #2d3e2f; /* Deep jungle green */
+    /* Add a subtle texture or a wildlife photo background here */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                      url('https://images.unsplash.com/photo-1516422275727-8387d7c92573?auto=format&fit=crop&q=80&w=1000');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+fieldset {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px); /* Modern "glass" effect for better readability */
+    border: 3px solid #d4a373; /* Earthy khaki border */
+    border-radius: 12px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+legend {
+    color: #faedcd; /* Light cream */
+    font-family: 'Special+Elite', serif; /* Typewriter style */
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccd5ae;
+    border-radius: 5px;
+    background: #fefae0; /* Off-white/old paper color */
+    box-sizing: border-box; /* Prevents input from overflowing */
+}
+
+input[type="submit"], 
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #bc6c25; /* Tiger/Earth orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #dda15e; /* Lighter sand color on hover */
+}
+
+p, div {
+    color: #faedcd;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: #dda15e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
